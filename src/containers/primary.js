@@ -61,7 +61,7 @@ class Primary extends Component {
 		}
 
 		const primes = primaries.map((prime, i) => (
-				<Color onClick={this.handleClick.bind(this, prime)}key={i} style={{backgroundColor:prime["500"], width:"45px", height:"45px", margin:"1px"}}>{prime["500"]}</Color>
+				<Color onClick={this.handleClick.bind(this, prime)}key={i} style={{backgroundColor:prime["500"], width:"45px", height:"45px", margin:"1px"}} />
 			))
 		return(
 			<Container>
