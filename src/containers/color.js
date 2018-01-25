@@ -4,6 +4,8 @@ import {connect} from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { setColor } from '../actions/index'
 
+/*Not using this yet, going to implement HEX => RGB => HSL*/
+
 class Color extends Component {
 	constructor() {
 		super();
