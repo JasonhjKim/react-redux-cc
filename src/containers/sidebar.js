@@ -58,12 +58,6 @@ export default class Sidebar extends Component {
 					<Title>Secondary</Title>
 					<Secondary />
 				</Wrapper>
-
-				<Wrapper>
-					<Title>Color</Title>
-					<Color />
-				</Wrapper>
-				
 			</Container>
 		)
 	}
