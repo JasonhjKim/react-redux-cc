@@ -1,5 +1,6 @@
 # Color Theme Picker
-Color theme picker is web application assist you with choosing the color theme for your website based on Google Material Design Color. 
+Color theme picker is web application assist you with choosing the color theme for your website based on Google Material Design Color.  
+Live demo: https://react-redux-cc.herokuapp.com/
 
 ## Setup
 1. clone this repository ```git clone https://github.com/JasonhjKim/react-redux-cc.git ```
