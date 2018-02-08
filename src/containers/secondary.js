@@ -16,15 +16,6 @@ class Secondary extends Component {
 				border-radius: 25px;
 			}
 		`
-		const transformOutCircle = keyframes `
-			from {
-				border-radius: 25px;
-			}
-			to {
-				border-radius: 10px;
-			}
-		`
-
 		const Color = styled.div `
 			display: flex;
 			width: 45px;

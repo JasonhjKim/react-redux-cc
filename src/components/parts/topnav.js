@@ -3,15 +3,11 @@ import styled from 'styled-components';
 
 
 export default class TopNav extends Component {
-	constructor(props) {
-		super(props);
-	}
 	render() {
 		const Nav = styled.div `
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
-			max-width: 1024px;
 			align-items: center;
 			border: 1px solid black;
 			color: white;
@@ -26,7 +22,6 @@ export default class TopNav extends Component {
 		const Li = styled.li `
 			padding: 1em 2em
 		`
-		console.log(this.props.index);
 		return(
 			<Nav style={{backgroundColor: this.props.primary[0], color: this.props.fontColor}}>
 				<Wrapper>

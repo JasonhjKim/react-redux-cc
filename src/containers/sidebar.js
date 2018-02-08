@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Option from './option';
 import Logo from '../components/logo'
-import Color from './color';
 import Primary from './primary'
 import Secondary from './secondary'
+import Palette from './palette';
 
 export default class Sidebar extends Component {
 	render() {
@@ -14,13 +14,13 @@ export default class Sidebar extends Component {
 			flex: 1;
 			align-items: center;
 			background-color: #f4f4f4;
-			overflow-y: none;
 			min-height: 100vh;
 			width: 250px;
 			position: fixed;
-			overflow-y: scroll;
+			overflow-y: auto;
 			top: 0;
 			bottom: 0;
+			border-right: 1px solid black;
 
 			@media (max-width: 780px) {
 				display:none;
@@ -34,15 +34,36 @@ export default class Sidebar extends Component {
 		const Title = styled.h4 `
 			border-bottom: 1px solid black;
 			font-family: raleway;
+			text-align: left;
+			width: 250px;
 		`
 		const LogoWrapper = styled.div `
+		`
 
+		const P = styled.p `
+			margin: 0;
+			padding: 0;
+			text-align: right;
+		`
+		const H3 = styled.h3 `
+			margin: 0;
+			padding: 0;
 		`
 		return(
 			<Container>
 				<LogoWrapper>
 					<Logo />
 				</LogoWrapper>
+
+				<Wrapper>
+					<H3>Color Theme Picker</H3>
+					<P>by H.J.K</P>
+				</Wrapper>
+
+				<Wrapper>
+					<Title>Palette</Title>
+					<Palette />
+				</Wrapper>
 
 				<Wrapper>
 					<Title>Components</Title>

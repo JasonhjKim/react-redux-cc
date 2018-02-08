@@ -4,6 +4,5 @@ export default function() {
 		for(const key in root) {
 			primaries.push(root[key]);
 		}
-		console.log(primaries);
 	return primaries
 }

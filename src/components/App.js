@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Body from '../containers/body'
 import Sidebar from '../containers/sidebar'
+import './App.css';
 
 class App extends Component {
   render() {
@@ -12,10 +13,8 @@ class App extends Component {
   	`
     return (
     	<Container>
-        <Sidebar>
-        </Sidebar>
-    		<Body>
-    		</Body>
+        <Sidebar/>
+    		<Body/>
     	</Container>
     );
   }

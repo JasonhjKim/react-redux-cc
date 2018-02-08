@@ -11,15 +11,17 @@ export default class Video extends Component {
 			background-color: #FFFFFF;
 			flex-direction: column;
 			border: 1px solid black;
+			min-height: 400px;
 		`
 
 		const Video = styled.div `
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			width: 30vw;
-			height: 30vh;
-			margin: 2em 7em 5em 7em;
+			width: 75%;
+			height: 350px;
+			margin: 1em 0;
+			
 			background-color: ${this.props.primary[2]};
 		`
 

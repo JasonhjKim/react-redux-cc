@@ -31,7 +31,7 @@ class Color extends Component {
 
 	toHex(str) {
 		var hex = parseInt(str, 10).toString(16);
-		return hex.length == 1 ? "0" + hex : hex;
+		return hex.length === 1 ? "0" + hex : hex;
 	}
 
 	getCombineValue() {

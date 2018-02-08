@@ -7,12 +7,12 @@ export default class Logo extends Component {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin: 2em;
+			margin: 4em 2em 0 2em;
 			position:sticky;
 		`
 		return(
 			<Container>
-				<img src={require("../logo.svg")} />
+				<img src={require("../logo.svg")} alt="logo"/>
 			</Container>
 		)
 	}

@@ -10,7 +10,6 @@ class Body extends Component {
 			align-items: center;
 			flex: 4;
 			max-width: 100%;
-			border: 1px solid black;
 			overflow-y: auto;
 			margin-left: 250px;
 			min-height: 100vh;
@@ -18,7 +17,6 @@ class Body extends Component {
 			@media (max-width: 960px) {
 	      		margin-left: 250px;
 	      	}
-
 	      	@media (max-width: 780px) {
 	      		margin: 0 auto;
 	      	}
@@ -29,7 +27,7 @@ class Body extends Component {
 			display: flex;
 			flex-direction: column;
 			background-color: white;
-			border: 1px solid black;
+			border: 1px solid #D0D0D0;
 		`
 
 		const renderList = this.props.renderParts.map((Part, index) => (
