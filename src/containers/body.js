@@ -13,7 +13,7 @@ class Body extends Component {
 			overflow-y: auto;
 			margin-left: 250px;
 			min-height: 100vh;
-			background: #F5F5F5;
+			background: white;
 			@media (max-width: 960px) {
 	      		margin-left: 250px;
 	      	}
