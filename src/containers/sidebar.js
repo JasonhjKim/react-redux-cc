@@ -29,13 +29,13 @@ export default class Sidebar extends Component {
 		`
 		const Wrapper = styled.div `
 			margin-bottom: 1.5em;
+			width: 230px;
 		`
 
 		const Title = styled.h4 `
 			border-bottom: 1px solid black;
 			font-family: raleway;
 			text-align: left;
-			width: 250px;
 		`
 		const LogoWrapper = styled.div `
 		`
@@ -45,9 +45,10 @@ export default class Sidebar extends Component {
 			padding: 0;
 			text-align: right;
 		`
-		const H3 = styled.h3 `
+		const H4 = styled.h4 `
 			margin: 0;
 			padding: 0;
+			text-align: center;
 		`
 		return(
 			<Container>
@@ -56,7 +57,7 @@ export default class Sidebar extends Component {
 				</LogoWrapper>
 
 				<Wrapper>
-					<H3>Color Theme Picker</H3>
+					<H4>Color Theme Picker</H4>
 					<P>by H.J.K</P>
 				</Wrapper>
 
