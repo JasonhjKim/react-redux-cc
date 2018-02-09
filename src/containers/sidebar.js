@@ -50,6 +50,19 @@ export default class Sidebar extends Component {
 			padding: 0;
 			text-align: center;
 		`
+		const Button = styled.button `
+			padding: 0.75em 3em;
+			font-size: 1em;
+			background: white;
+			border: 1px solid #d0d0d0;
+			border-radius: 8px;
+			color: black;
+			box-shadow: 1px 1px 1px #d0d0d0;
+			margin: 0 1em;
+		`
+		const ButtonA = styled.a `
+			color: #b0b0b0;
+		`
 		return(
 			<Container>
 				<LogoWrapper>
@@ -79,6 +92,12 @@ export default class Sidebar extends Component {
 				<Wrapper>
 					<Title>Secondary</Title>
 					<Secondary />
+				</Wrapper>
+
+				<Wrapper>
+					<div style={{display:"flex", justifyContent:"center"}}>
+						<ButtonA href="https://github.com/JasonhjKim/react-redux-cc"><Button><i className="fa fa-github"></i> Github</Button></ButtonA>
+					</div>
 				</Wrapper>
 			</Container>
 		)

@@ -29,6 +29,8 @@ class RandomButton extends Component {
 			border: 2px solid bluegray;
 			width: 100%;
 			margin-top: 0.25em;
+			padding: 0.25em 0;
+			box-shadow: 0.25px 0.25px 0.25px gray;
 		`
 		return(
 			<Container>
