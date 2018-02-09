@@ -59,18 +59,18 @@ export default class Sidebar extends Component {
 				<Wrapper>
 					<H4>Color Theme Picker</H4>
 					<P>by H.J.K</P>
-				</Wrapper>
-
-				<Wrapper>
-					<Title>Palette</Title>
-					<Palette />
-				</Wrapper>
+				</Wrapper/>
 
 				<Wrapper>
 					<Title>Components</Title>
 					<Option />
 				</Wrapper>
 
+				<Wrapper>
+					<Title>Palette</Title>
+					<Palette />
+				</Wrapper>
+				
 				<Wrapper>
 					<Title>Primary</Title>
 					<Primary />
